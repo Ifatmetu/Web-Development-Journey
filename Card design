@@ -1,0 +1,84 @@
+<!--Nature.jpg is a file which contain a file image.Write HTML and CSS code to design the card-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>card</title>
+   <style>
+      body{
+         background-color: gray;
+      }
+      
+      *{
+         padding: 0;
+         margin: 0;
+      }
+      .card{
+         background-color: White;
+         height: 384px;
+         width: 298px;
+         border-radius: 7px;
+         margin: 50px;
+         
+      }
+      .image{
+         padding: 5px;
+      }
+      .image img{
+         border-radius: 7px;
+         width: 288px;
+         height: 144px;
+      }
+      .capsule{
+         padding: 5px 20px 5px 13px;
+      }
+      .capsule span{
+         border: 1px solid gray;
+         border-radius: 15px;
+         padding: 4px;
+         margin: 3px;
+      }
+      .content{
+         padding: 12px;
+      }
+      .content p{
+         margin: 4px;
+         color: rgb(96, 94, 94);
+      }
+      .content h2{
+         text-align: center;
+      }
+      .button{
+         text-align: center;
+      }
+      .button button{
+         background-color: rgb(186, 186, 248);
+         color: blue;
+         border-radius: 12px;
+         padding: 4px;
+         border: none;
+      }
+
+   </style>
+</head>
+<body>
+   <div class="card">
+      <div  class="image">
+         <img src="Nature.jpg">
+      </div>
+      <div class="capsule">
+         <span>Nature</span>
+         <span>Lake</span>
+      </div>
+      <div class="content">
+         <h2>Lake view</h2>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus nulla dolore rem nesciunt ex quas voluptas quod explicabo, deleniti architecto corporis itaque nam magnam, accusamus cupiditate tenetur quos maxime tempora!</p>
+      </div>
+      <div class="button">
+         <button>see more</button>
+      </div>
+
+   </div>
+</body>
+</html>

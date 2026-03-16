@@ -1,0 +1,56 @@
+<!--Creat a multicolor website which can change color using CSS variable-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS multicolour variable</title>
+   <style>
+      body{
+         background-color: rgb(230, 200, 243);
+      }
+      :root{
+         --basecolor:rgb(148, 5, 134);
+         --seccolor:rgb(70, 2, 70);
+         --background-color: rgb(220, 168, 243);
+      }
+      ul{
+         list-style: none;
+         display:flex;
+         background-color: var(--basecolor);
+         font-weight: bolder;
+      }
+      ul li{
+         padding: 15px;
+         margin: 2px;
+        
+         
+      }
+      ul li a{
+         color: var(--background-color);
+         text-decoration: none;
+      }
+
+      *{
+         margin: 0;
+         padding: 0;
+      }
+
+   </style>
+</head>
+<body>
+   <header>
+      <nav>
+         <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Details</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">contact</a></li>
+            <li><a href="/">Log in</a></li>
+         </ul>
+      </nav>
+   </header>
+      
+   
+</body>
+</html>
